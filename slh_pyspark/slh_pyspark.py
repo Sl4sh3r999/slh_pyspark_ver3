@@ -1,7 +1,7 @@
 def ejemplos():
-    print('''col_a_list("students", "names")
+    print('''col_a_list(students, "names")
 
-    col_a_tupla("students", "names")
+    col_a_tupla(students, "names")
 
     cols_para_sql_athena(students.printSchema)
 
