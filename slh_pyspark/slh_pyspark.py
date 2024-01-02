@@ -5,7 +5,8 @@ def ejemplos():
 
     cols_para_sql_athena(students.printSchema)
 
-    shp_geohash(geohashes_list, spark=spark)''')
+    shp_geohash(geohashes_list, spark=spark)
+    shp_geohash(geohashes_list, ruta_guardado, nombre_shp, spark=spark)''')
 
 def col_a_list(df, col):
 
