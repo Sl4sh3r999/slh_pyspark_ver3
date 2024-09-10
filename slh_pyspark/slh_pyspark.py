@@ -40,7 +40,7 @@ def col_a_tupla(df, col):
 
     return tp
 
-def cols_para_sql_athena(esquema):
+def cols_para_sql_athena(esquema=df.printSchema):
 
     print(f'Example:\nslh.cols_para_sql_athena(df.printSchema)\nImportant: do not use "()" at the end of DF funtion\n\n')
 
@@ -63,6 +63,7 @@ def cols_para_sql_athena(esquema):
     except:
         pass
 
+    print(sepracion)    
     return separacion
 
 
